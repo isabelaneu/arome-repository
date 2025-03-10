@@ -1,0 +1,42 @@
+.footer{
+    width: 98vw;
+    height: 30vh;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #F5AC76 11.6%, #D16E4D 45.6%, #E67B6E 100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vh;
+}
+
+.logoFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+}
+
+.arome{
+    color: #E6E1DB;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.textoFooter{
+    color: #E6E1DB;
+    text-align: center;
+    font-family: NATS;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5vh;
+    display: flex;
+    width: 40vw;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}

@@ -1,0 +1,77 @@
+.fundoShop{
+    width: 92.5rem;
+    height: 120.75rem;
+    background: linear-gradient(180deg, #FCB5A6 50.24%, #E3CCC7 100%);
+    padding: 20px;
+    
+}
+
+.tituloShop{
+    width: 26.5rem;
+    color: #59291B;
+    font-family: Italiana;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.viewCardShop{
+  display: flex ;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.cardShop{
+    border-radius: 1.6875rem;
+    background: #E6E1DB;
+    width: 19rem;
+    height: 27.4375rem;
+    flex-shrink: 0;
+    margin: 2rem;
+}
+
+.imgCardShop{
+    border-radius: 1.5625rem;
+    background: lightgray -18.613px -122.399px / 115.607% 163.468% no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 14rem;
+    height: 15.25rem;
+    flex-shrink: 0;
+    aspect-ratio: 115/122;
+    display: block;
+    margin: auto;
+    margin-top: 0.75rem;
+
+}
+
+.textoCardShop {
+    color: #59291B;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    width: 20rem;
+    height: 2.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.svgCardShop{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+#lavanda:hover{
+    background-image: url("https://i.pinimg.com/736x/2d/be/1d/2dbe1d0955faf8e47c5e31cad1141245.jpg");
+}
